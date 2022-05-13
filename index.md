@@ -2,7 +2,7 @@
 
 My name is Thomas Hall (or Bluekoekj)
 
-Links:  <a href="/devfiles">Development Mode     <a href="/lekrbotstatus">LekrBOT Telegram status      <a href="/404">404 page
+Links:  <a href="/randombox">RandomBox   <a href="/lekrbotstatus">LekrBOT Telegram status      <a href="/404">404 page
   
   
 ### What I do
