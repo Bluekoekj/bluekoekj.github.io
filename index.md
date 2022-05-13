@@ -7,6 +7,6 @@ This site is undergoing a revamp and it is down as a result.
 
 Wait for it to come back up dumbass
 
-### More coming soon lmao
+### 2022 Wave Broadcasting UK
 
 
