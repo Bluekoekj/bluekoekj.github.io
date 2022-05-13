@@ -10,7 +10,7 @@ Links:  <a href="/randombox">RandomBox   <a href="/lekrbotstatus">LekrBOT Telegr
 I make apps and play games
 
 ### Development projects
-This wont be updated for a while because I suck ass at GitHub pages
+These can be found at the top of the page, where the links are
 
 
   <a href="https://discord.gg/UePMKbnTTn">My Discord Server
