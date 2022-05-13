@@ -17,5 +17,5 @@ This wont be updated for a while because I suck ass at GitHub pages
 
   
 
-### Version 1.0
+### Version 1.1
 
