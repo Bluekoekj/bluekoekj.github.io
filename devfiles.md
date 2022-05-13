@@ -2,4 +2,4 @@
 Work in progress biatch
 
 
-###<a href="/">Go home (and never come back)
+<a href="/">Go home
