@@ -12,7 +12,9 @@ This wont be updated for a while because I suck ass at GitHub pages
 
 ### Some links
 <a href="https://discord.gg/UePMKbnTTn">My Discord Server
-<a href="/devfiles">Development Mode
+
+  
+  <a href="/devfiles">Development Mode
 
 ### Version 1.0
 
