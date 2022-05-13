@@ -1,12 +1,15 @@
 ## Hey there!
 
-This site is undergoing a revamp and it is down as a result.
+My name is Thomas Hall (or Bluekoekj)
 
 
-### What can I do?
+### What I do
 
-Wait for it to come back up dumbass
+I make apps and play games
 
-### 2022 Wave Broadcasting UK
 
+<a href="/">This works?
+
+
+### Version 1.0
 
