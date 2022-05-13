@@ -17,7 +17,7 @@ I play and make games lmao
 
 ### Support or Contact
 
-Im hapy to have a chat if you like!
+Im happy to have a chat if you like!
 WhatsApp: +447842378513
 Telegram: @Bluekoekj or https://t.me/reactionrrchat
 Discord: totallynotbluekoekj#6652
