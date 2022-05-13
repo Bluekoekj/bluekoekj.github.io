@@ -9,7 +9,7 @@ I hope you like it!
 I got into game development because Lekrkoekj does it. Lekrkoekj is also where my name comes from!
 
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+.
 
 ### Things I do
 
