@@ -8,8 +8,8 @@ My name is Thomas Hall (or Bluekoekj)
 I make apps and play games
 
 ### Development projects
-<a href="/randombox">RandomBox
-
+This wont be updated for a while because I suck ass at GitHub pages
+<a href="https://discord.gg/UePMKbnTTn">My Discord Server
 
 ### Version 1.0
 
