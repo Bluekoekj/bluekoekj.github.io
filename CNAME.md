@@ -1,1 +1,1 @@
-https://bluekoekj.github.io
+https://bluekoekj.qte
