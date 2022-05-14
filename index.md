@@ -5,7 +5,7 @@
 
 My name is Thomas Hall (or Bluekoekj)
 
-Links:  <a href="/randombox">RandomBox   <a href="/lekrbotstatus">LekrBOT Telegram status      <a href="/404">404 page (test)
+  Links:  <a href="/randombox">RandomBox   <a href="/lekrbotstatus">LekrBOT Telegram status      <a href="https://lenni-builder.github.io">Inpiration
   
   
 ### What I do
