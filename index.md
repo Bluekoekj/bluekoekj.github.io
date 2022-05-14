@@ -1,11 +1,13 @@
 ## Bluekoekj's Website
 
 
+  Links:  <a href="/randombox">RandomBox   <a href="/lekrbotstatus">LekrBOT Telegram status      <a href="https://lenni-builder.github.io">Inpiration
+
 ### About me
 
 My name is Thomas Hall (or Bluekoekj)
 
-  Links:  <a href="/randombox">RandomBox   <a href="/lekrbotstatus">LekrBOT Telegram status      <a href="https://lenni-builder.github.io">Inpiration
+  
   
   
 ### What I do
