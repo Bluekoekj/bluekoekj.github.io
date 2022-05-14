@@ -1,7 +1,7 @@
 ## Bluekoekj's Website
 
 
-  Links:  <a href="/randombox">RandomBox   <a href="/lekrbotstatus">LekrBOT Telegram status      <a href="https://lenni-builder.github.io">Late Night Inspiration   <a href="/contact">Contact    <a href="/awoom">Press here for a suprise    <a href="/cdn">DownloadDumpsterCDN   <a href="/canceltalkingben/gallery">Talking Ben Gets Cancelled   <a href="/lekrkoekj.md">DownloadDumpsterCDN
+  Links:  <a href="/randombox">RandomBox   <a href="/lekrbotstatus">LekrBOT Telegram status      <a href="https://lenni-builder.github.io">Late Night Inspiration   <a href="/contact">Contact    <a href="/awoom">Press here for a suprise    <a href="/cdn">DownloadDumpsterCDN   <a href="/canceltalkingben/gallery">Talking Ben Gets Cancelled   <a href="/lekrkoekj.md">Lekrkoekj Folder
 
 
 
