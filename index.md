@@ -1,4 +1,7 @@
-## Hey there!
+## Bluekoekj's Website
+
+
+###About me
 
 My name is Thomas Hall (or Bluekoekj)
 
