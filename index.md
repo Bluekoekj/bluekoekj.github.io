@@ -1,7 +1,7 @@
 ## Bluekoekj's Website
 
 
-  Links:  <a href="/randombox">RandomBox   <a href="/lekrbotstatus">LekrBOT Telegram status      <a href="https://lenni-builder.github.io">Inpiration
+  Links:  <a href="/randombox">RandomBox   <a href="/lekrbotstatus">LekrBOT Telegram status      <a href="https://lenni-builder.github.io">Inpiration    <a href="/contact">Contact
 
 ### About me
 
