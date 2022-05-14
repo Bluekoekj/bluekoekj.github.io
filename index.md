@@ -20,5 +20,5 @@ These can be found at the top of the page, where the links are
 
   
 
-### Version 1.1
+### Version 1.2
 
