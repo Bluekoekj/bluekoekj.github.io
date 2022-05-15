@@ -10,5 +10,5 @@ We have identified the cause of the problem and found out that you may need to k
   
   <a href="/">Return to home
 
-### Bot Version 1x
+### Bot Version 1 Safemode
 
