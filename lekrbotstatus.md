@@ -2,10 +2,10 @@
 
 
 
-Once again, the LekrBOT Telegram bot is still down. We hope to get it back up soon!
+We have identified the cause of the problem and found out that you may need to kick @thelekrbot and add him back. Please be aware that the system is still not up completley, so please give us some time to get it back up.
 
   
-### Last updated: 8:21am on 14/5/2022
+### Last updated: 6:04pm on 15/5/2022
   
   
   <a href="/">Return to home
