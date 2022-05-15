@@ -27,3 +27,5 @@ However, I don't know if this is over, or if development on the video will compl
   Below I have embed my video where i talk about the comment  
   
   <iframe width="853" height="480" src="https://www.youtube.com/embed/VPkonpNDYFM" title="CumTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  
+  This is not done yet!
