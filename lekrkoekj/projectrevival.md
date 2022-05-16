@@ -8,6 +8,8 @@ Lemme make this very clear, I have NOT been given persmission by Lekrkoekj in an
 with Lekrkoekj in any way possible
 
 <a href="eurotruck69.zip">Euro Truck 69
+ 
+ There is gonna be more soon don't worry
 
 
 
