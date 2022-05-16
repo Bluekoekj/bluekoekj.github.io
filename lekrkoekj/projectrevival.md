@@ -1,4 +1,4 @@
-## Reviving Lekrkoekj's dead projects
+## Reviving Lekrkoekj's "dead" projects
 
 
  
