@@ -4,7 +4,7 @@ RandomBox allows you to make custom error messages with a UI and a few other bit
 I have made the VBS files but the UI still needs working on
 
 
-<a href="/developentfiles/randomboxvbs.zip">Download it here
+<a href="/developmentfiles/randomboxvbs.zip">Download it here
 
 
 <a href="/">Return to home
