@@ -4,7 +4,10 @@
 This part of the website will explain what The History of Lekrkoekj I Guess is about.
 
 Note: This page is quite long, so if you wanna go home, <a href="/">Click Here
-
+  
+<a href="/archive">Press here for the archives
+  
+  
 ### Personal information leakage claims
 
 The video is not intended to leak important information, but rather to tell people how Lekrkoekj started.
