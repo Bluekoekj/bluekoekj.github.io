@@ -5,20 +5,11 @@
   
 ### About me
 
-My name is Thomas Hall (or Bluekoekj)
-
+My name is Thomas Hall (or Bluekoekj). I like to play games and make apps. This website was just for fun at first but I didnt know I would be editing it pretty much every day!
   
-  
-  
-### What I do
-
-I make apps and play games
-
-### Development projects
-These can be found at the top of the page, where the links are
+  I hope you like it :)
 
 
-  <a href="https://discord.gg/UePMKbnTTn">My Discord Server
 
   
 
