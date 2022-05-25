@@ -1,6 +1,6 @@
 ## Photography
 
-If you have seen my readme.md, you would have seen that I like taking lots of photos and videos
+If you have seen my readme.md, you would have seen that I like taking lots of photos!
 
 ### NOTE: This page is EXTREMELY long and I am not even exaggreating! If you want to go home, <a href="/">press here
 
@@ -12,47 +12,7 @@ Here are some of them:
 
 
 
-https://user-images.githubusercontent.com/105518107/170265666-de2a1ae3-44a9-49b5-8a30-73d35a5969fc.mp4
 
-
-
-https://user-images.githubusercontent.com/105518107/170265670-53541811-813e-469d-8225-c72d7292e8f3.mp4
-
-
-
-https://user-images.githubusercontent.com/105518107/170265679-3a84b253-e2a8-4263-9de5-bd76a6294e87.mp4
-
-
-
-https://user-images.githubusercontent.com/105518107/170265706-cbada33a-9b73-4b54-9352-e94cd12781b0.mp4
-
-
-
-https://user-images.githubusercontent.com/105518107/170265723-bd550f9b-d670-41e7-9cb4-eb1a530ef7ad.mp4
-
-
-
-https://user-images.githubusercontent.com/105518107/170265737-c7a80803-b905-402c-a79a-3e3272e9bd66.mp4
-
-
-
-https://user-images.githubusercontent.com/105518107/170265744-7ecc9bc7-a0b5-4416-b947-5ad777f4b9bf.mp4
-
-
-
-https://user-images.githubusercontent.com/105518107/170265761-d5a60580-0230-44de-91c0-ba3e7f83da6d.mp4
-
-
-
-https://user-images.githubusercontent.com/105518107/170265786-ff3a0b14-9bea-49eb-9afc-5e0f2bcc795c.mp4
-
-
-
-https://user-images.githubusercontent.com/105518107/170265817-d5143ad5-aa1d-4f61-8f5b-3f778ada2d7c.mp4
-
-
-
-https://user-images.githubusercontent.com/105518107/170265827-e624aa39-6448-4dd3-aa3a-e343665ed409.mp4
 
 ![SUNP0001](https://user-images.githubusercontent.com/105518107/170265854-40bb9024-a56b-48a9-84eb-68ce0ce8935e.JPG)
 ![SUNP0033](https://user-images.githubusercontent.com/105518107/170265860-9b5b9332-3772-4a9f-aac7-a2eb93058bc4.JPG)
