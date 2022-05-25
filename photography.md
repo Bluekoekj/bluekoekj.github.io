@@ -1,9 +1,11 @@
 ## Photography
 
-If you have seen my readme.md, you would have seen that I like taking lots of photos!
+If you have seen my readme.md, you would have seen that I like taking lots of photos and videos
+
+### NOTE: This page is EXTREMELY long and I am not even exaggreating! If you want to go home, <a href="/">press here
 
 
-
+  
 Here are some of them:
 
 ![SUNP0003](https://user-images.githubusercontent.com/105518107/170265980-831509e2-a7d6-42f5-a132-39e0c9c73bbf.JPG)
