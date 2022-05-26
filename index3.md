@@ -1,14 +1,11 @@
-## Bluekoekj's Website
+## Hi! I'm Bluekoekj
 
 <a href="/links">All of the links have moved here!
 
   
-### About me
+### Explainatinon
 
-My name is Thomas Hall (or Bluekoekj). I like to play games and make apps. This website was just for fun at first but I didnt know I would be editing it pretty much every day!
-  
-  I hope you like it :)
-
+I wanted to make out that Lekrkoekj hacked my website as a late april fools prank. Thats whhy you saw that text and the favicon, and thats why nothing was working properly. Things are back up tho, so enjoy the site!
 
 
   
