@@ -1,12 +1,13 @@
-## Hi! I'm Bluekoekj
+# Welcome home!
+
+
 
 <a href="/links">All of the links have moved here!
 
   
-### Explainatinon
-
-I wanted to make out that Lekrkoekj hacked my website as a late april fools prank. Thats whhy you saw that text and the favicon, and thats why nothing was working properly. Things are back up tho, so enjoy the site!
-
+## Hey there!
+  
+Welcome to my website! Here you can download files, get my contact info, Itothebonketechediun (force me to speak chinese) and so much more! Links are at the top of the page, and yeah! Enjoy!
 
   
 
