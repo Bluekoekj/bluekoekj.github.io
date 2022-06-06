@@ -3,6 +3,9 @@
 
 
 <a href="/links">All of the links have moved here!
+ 
+
+<a href="/countdown">I am counting down until UK School ends!
 
   
 ## Hey there!
