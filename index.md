@@ -10,7 +10,7 @@
   
 ## Hey there!
   
-Welcome to my website! Here you can download files, get my contact info, Itothebonketechediun (force me to speak chinese) and so much more! Links are at the top of the page, and yeah! Enjoy!
+Welcome to my website! I update this all the time, so dont worry if a feature you want is not here, because I will most likely add it!
  
 ## Information
  
