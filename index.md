@@ -17,6 +17,8 @@ Welcome to my website! I update this all the time, so dont worry if a feature yo
 It has been officially announced that my tiktok accounts will cease operations until further notice. This is because my dad thinks that tiktok is violent.
  Dont worry! All of my other social media will remain active. 
  
+   <a href="/tiktokclosure">More info
+ 
 ## Socials
  
  Funimate: technicallythomas
