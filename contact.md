@@ -6,7 +6,7 @@ WhatsApp: +447842378513
 
 Telegram: @Bluekoekj
 
-Discord: totallynotbluekoekj#9536
+Discord: Thomas H#9536
 
 Lobby: @bluekoekj
 
