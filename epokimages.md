@@ -16,4 +16,4 @@ Right click and press save if you want any
 
 ![;aaaaaaaaaaaaaaaaaaaaaaaaaa](https://user-images.githubusercontent.com/105518107/170278615-1987ea4e-d924-40bc-a069-254adde7e27e.PNG)
   
-![;aaaaaaaaaaaaaaaaaaaaaaaaaa](https://styles.lekr.site/me.png)
+![;aaaaaaaaaaaaaaaaaaaaaaaaaa](https://styles.lekr.site/images/me.png)
