@@ -19,6 +19,21 @@
 ### Have you been on the Elizabeth Line yet
   
 No, but one day I will go on it
+  
+# Socials?
+  
+ 
+ Funimate: technicallythomas
+ 
+ TikTok (not operating): Tbmu_official, lekrkoekjfanpage, _technicalllythomas and totallynotbluekoekj
+ 
+ Likee: Bluekoekj
+
+ Roblox: thomash35
+ 
+ Discord: Thomas H#9536
+ 
+ Lobby: Bluekoekj
 
   
   <a href="/">Return to home
