@@ -1,5 +1,6 @@
 # Welcome home!
 
+The time now is: <iframe src="https://free.timeanddate.com/clock/i8d0vzvy/n1329/tluk/fn6/fs18/fc0f0/tc000/ftb/bas4/bat1/bacfff/pa8/tt0/th1/ta1/tb4" frameborder="0" width="304" height="68"></iframe>
 
 
 <a href="/links">All of the links have moved here!
