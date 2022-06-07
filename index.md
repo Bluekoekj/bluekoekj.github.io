@@ -23,4 +23,4 @@ It has been officially announced that my tiktok accounts will cease operations u
 
   
 
-### Version 1.0
+### Version 1.1
