@@ -9,5 +9,7 @@
    <a href="https://bluekoekj.github.io/discord">Discord servers
   
   <a href="https://bluekoekj.statuspage.io">Statuspage
+   
+  <a href="/tiktokclosure">Information on the closure of my TikTok accounts
  
   
