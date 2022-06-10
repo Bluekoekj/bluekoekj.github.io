@@ -6,6 +6,8 @@
   
   <a href="/robloxshirts">Roblox Pogr Shirts
    
+   <a href="https://bluekoekj.github.io/cool">cool
+   
    <a href="https://bluekoekj.github.io/discord">Discord servers
   
   <a href="https://bluekoekj.statuspage.io">Statuspage
