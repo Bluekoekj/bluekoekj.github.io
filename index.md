@@ -14,7 +14,7 @@ Welcome to my website! I update this all the time, so dont worry if a feature yo
  
 ## Whats new?
  
-Nothing yet! Check back here tomorrow for more!
+The QuandaleOS website is now up and running, although it is still being worked on
  
    <a href="/whatsnew">More info
  
