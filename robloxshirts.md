@@ -1,6 +1,6 @@
 ### Roblox Pogr Shirts
 
-Currenlty off sale as I'm broke asf
+All on sael lel
 
 <a href="/">Home
 
