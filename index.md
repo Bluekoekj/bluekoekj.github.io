@@ -7,10 +7,9 @@
 <a href="/whatsnew">Learn more
 
 
-<a href="/links">All of the links have moved here!
- 
-
 <a href="/countdown">I am counting down until UK School ends!
+ 
+<a href="/links">Links
 
   
 ## Hey there!
