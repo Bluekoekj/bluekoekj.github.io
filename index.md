@@ -11,15 +11,8 @@
 ## Hey there!
   
 Welcome to my website! I update this all the time, so dont worry if a feature you want is not here, because I will most likely add it!
- 
+
 ## Whats new?
- 
-The QuandaleOS website is now up and running, although it is still being worked on
- 
-   <a href="/whatsnew">More info
- 
-
-
   
 
 ### Version 1.1
