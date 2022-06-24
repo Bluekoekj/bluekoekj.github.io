@@ -1,13 +1,8 @@
 # Welcome home!
 
 <html>
-<body><marquee><h1 style="color:blue;">What's new is now displayed as a marquee at the top of the page!</h1></marquee></body>
+<body><marquee><h1 style="color:blue;">The Quandale OS website is out now! (https://bluekoekj.github.io/quandaleos)</h1></marquee></body>
 </html>
-
-<a href="/whatsnew">Learn more
-
-
-
  
 <a href="/links">Links
 
