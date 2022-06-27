@@ -1,8 +1,6 @@
-# Sorry!!
+# Sorry, were closed
 
-This website is down right now to allow the domains for computers to level out.
-
-Sorry about that
+This website is down for maintainence. Please reload the page regularly to see if new features have synced
 
   <a href="https://bluekoekj.statuspage.io/">Statuspage
   
