@@ -1,6 +1,7 @@
 <html>
-<body><marquee><h1 style="color:blue;">Whats new: The Quandale OS website is out now! (https://bluekoekj.github.io/quandaleos)</h1></marquee></body>
+<body><marquee><h1 style="color:blue;">Whats new: This website will be going down in a few days for maintainence. Sorry for the inconvenience.</h1></marquee></body>
 </html>
+
 
 # Welcome home!
 
