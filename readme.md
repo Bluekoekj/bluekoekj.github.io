@@ -1,9 +1,3 @@
-## The official Bluekoekj website!
+## Hey there
 
-Hey there! Welcome to the offficial Bluekoekj website! Here is what you can do:
-
-Download files, look at my projects and so much more!
-
-Try it for yourself 
-
-<href/>https://bluekoekj.github.io
+If you are seeing this, the website is probably down. Please bear with us as we get the actual test card up
