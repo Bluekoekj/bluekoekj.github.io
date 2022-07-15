@@ -1,0 +1,18 @@
+(function($) {
+    $(function () {
+        email = Cookies.get("email");
+        if (email != undefined){
+            $("input[type=email].autofill").val(email);
+            $(".remember-me").prop("checked", true);
+        }
+        $(".remember-me").closest("form").submit(function () {
+            var form = $(this);
+            if ($(".remember-me", form).prop("checked")){
+                email = $("input[name=email]", form).val();
+                Cookies.set("email", email, {expires: 365});
+            } else {
+                Cookies.remove("email");
+            }
+        });
+    });
+})(jQuery);

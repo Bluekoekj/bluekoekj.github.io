@@ -1,0 +1,20 @@
+// Removes hidden from .support-information-button when support info is loaded.
+// Pop ups support info when clicking on .support-information-button.
+// Requires icomera_user.js
+
+(function($) {
+    if (_user != undefined && _user.ip != undefined) {
+        showSupportButton();
+    } else {
+        // _user haven't been populated yet, wait for it
+        $(document).one("user_update", showSupportButton);
+    }
+
+    function showSupportButton() {
+        $(".support-information-button")
+            .removeAttr("hidden")
+            .click(function() {
+                alert("IP address: " + _user.ip)
+            });
+    }
+})(jQuery);

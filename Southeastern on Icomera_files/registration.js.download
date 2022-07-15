@@ -1,0 +1,117 @@
+// Based on http://stackoverflow.com/a/901144
+function getParameterByName(name) {
+    var url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)");
+    var results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+}
+
+// Fetches position from api and adds it to register form
+$(function() {
+    $(".register__form [name=position], .register-form [name=position]").each(function() {
+        var positionInput = $(this);
+
+        $.getJSON("https://www.ombord.info/api/jsonp/position/?callback=?", function(response) {
+            var latitude = parseFloat(response.latitude);
+            var longitude = parseFloat(response.longitude);
+
+            if (isNaN(latitude) || isNaN(longitude)) {
+                return;
+            }
+
+            var position = {
+                lat: latitude,
+                lng: longitude
+            };
+
+            if (!position || !latitude || !longitude) {
+                return;
+            }
+
+            positionInput.val(latitude + "," + longitude);
+        });
+    });
+});
+
+// Validates form using pattern and required properties. It can handle most
+// kinds of forms. Checks for pattern and required. Doesn't work for
+// radio buttons. Implements no special logic for type=tel, email, etc.
+var validateForm = function (event) {
+    var form = $(this);
+    form.find("input, select").each(function () {
+        var elem = $(this)
+        var errorMessage = validateFieldError(elem);
+        if (errorMessage) {
+            alert(errorMessage);
+            elem.focus();
+            event.preventDefault();
+            event.stopImmediatePropagation();
+            return false; // Break from each
+        }
+    });
+};
+
+// Returns an error string or null
+function validateFieldError(elem) {
+    var elemTitle = elem.attr("title");
+    var moreInfo = elemTitle ? "\n\n" + elemTitle : "";
+    var pattern = elem.attr('pattern');
+    var value = elem.is("[type='checkbox']") ? elem.is(":checked") : elem.val();
+
+    if (elem.is("[type='hidden'], :disabled")) {
+        return null;
+    }
+
+    if (!value) {
+        if (elem.attr("required")) {
+            return "Please fill this field." + moreInfo;
+        }
+        // If value is empty but not required, we ignore the pattern
+    } else if (pattern !== undefined && !new RegExp(pattern).test(value)) {
+        return "Please fill this field correctly." + moreInfo;
+    }
+
+    return null;
+};
+
+(function($) {
+    $(function () {
+        var error = getParameterByName("error");
+        var section = getParameterByName("section");
+
+        var isTerms = section == "terms";
+        var isContact = section == "contact";
+        var isLogin = !isTerms && !isContact && !error;
+        var isRegister = !isTerms && !isContact && error == "noUser";
+        var isNewConsent = !isTerms && !isContact && error == "newConsent";
+        var isError = !isTerms && !isContact && !isRegister && !isLogin && !isNewConsent;
+
+        $(".terms").attr("hidden", isTerms ? null : "hidden");
+        $(".contact").attr("hidden", isContact ? null : "hidden");
+        $(".login").attr("hidden", isLogin ? null : "hidden");
+        $(".register").attr("hidden", isRegister ? null : "hidden");
+        $(".new-consent").attr("hidden", isNewConsent ? null : "hidden");
+        $(".error").attr("hidden", isError ? null : "hidden");
+        if (isError) {
+            $(".error-code").text(error);
+            $(".specific-error-message").attr("hidden", "hidden");
+            if (error.match(/^\d+$/)) { // Numeric error code
+                $(".error-message-" + error).attr("hidden", null);
+            }
+        }
+
+        $(".form").on("submit", validateForm);
+    });
+})(jQuery);
+
+$(".js-checkbox-label").click(function(e) {
+    if ($(this).find(".js-checkbox").is(":checked")) {
+        $(this).addClass("active")
+    } else {
+        $(this).removeClass("active")
+    }
+
+});

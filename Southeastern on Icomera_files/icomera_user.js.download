@@ -1,0 +1,160 @@
+
+
+/************************************************************************************
+* icomera_user.js
+* Created 2013-10-29 by Martin Lindahl
+*
+* A javascript for supporting user API usage
+*
+* Classes to be used:
+* - user-online             Use to define sections when user is online
+* - user-offline            Use to define sections when user is offline
+* - user-class-span         Span used to display user class (0,1,2)
+* - user-ip-span            Span used to display the IP address
+* - user-mac-span           Span used to display the MAC address
+* - quota-time-left-span    Span used to display the time left online
+* - quota-time-used-span    Span used to display the time online
+* - quota-limitation-bar    The limitation bar, showing the usage
+* - quota-limitation-span   Span used to display the current limit
+* - quota-usage-span        Span used to display current usage
+* - quota-usage-left-span   Span used to display usage left with current limit
+* - quota-unthrottled       Use to define sections when user is not throttled
+* - quota-throttled         Use to define sections when user is throttled
+*
+*
+*************************************************************************************/
+
+var _user = {};
+var _isThrottled;
+
+(function($) {
+    $(document).ready(function() {
+        $(document).bind('user_update', null, updateUserQuotas);
+        $(document).bind('user_update', null, updateUserDetails);
+        updateUser();
+
+        _user.updateinterval = setInterval("updateUser()",10000);
+    });
+
+    this.updateUser = function() {
+        /**
+         * Response holds the following keys:
+         * --------------------------------------------------------------------------------
+         * KEY                      EXAMPLE          NOTE
+         * --------------------------------------------------------------------------------
+         * ip                       10.101.1.2
+         * mac                      00:11:22:33:44:55
+         * online                   900              Time left on account to stay online
+         * userclass                2                1=First class, 2=Second class
+         * version                  1.4
+         * timeleft                 300
+         * authenticated            1
+         * expires                  Never
+         * timeused                 100
+         * data_download_used       300
+         * data_upload_used         200
+         * data_total_used          500
+         * data_download_limit      1024
+         * data_upload_limit        2048
+         * data_total_limit         3072
+         * bandwidth_download_limit 128
+         * bandwidth_upload_limit   256
+         * cap_level                0                0 if not throttled, empty if not logged in
+         * --------------------------------------------------------------------------------
+         */
+        $.getJSON("https://www.ombord.info/api/jsonp/user/?callback=?", function(response) {
+            // Save data
+            _user.version                   = response.version;
+            _user.ip                        = response.ip;
+            _user.mac                       = response.mac;
+            _user.authenticated             = parseInt(response.authenticated);
+            _user.userclass                 = parseInt(response.userclass);
+            _user.timeused                  = parseInt(response.timeused);
+            _user.data_download_used        = parseInt(response.data_download_used);
+            _user.data_upload_used          = parseInt(response.data_upload_used);
+            _user.data_total_used           = parseInt(response.data_total_used);
+            _user.data_download_limit       = parseInt(response.data_download_limit);
+            _user.data_upload_limit         = parseInt(response.data_upload_limit);
+            _user.data_total_limit          = parseInt(response.data_total_limit);
+            _user.bandwidth_download_limit  = parseInt(response.bandwidth_download_limit);
+            _user.bandwidth_upload_limit    = parseInt(response.bandwidth_upload_limit);
+            _user.expires                   = response.expires;
+            _user.timeleft                  = parseInt(response.timeleft);
+            if (response.cap_level !== undefined && response.cap_level !== ''){
+                _user.cap_level             = parseInt(response.cap_level);
+            } else {
+                _user.cap_level             = undefined
+            }
+
+            $(document).trigger('user_update');
+        });
+    };
+
+    this.updateLimitationBars = function() {
+        var perc = _isThrottled ? 100 : getUserDataPercentage();
+        $('.quota-limitation-bar').css('width', perc + '%');
+    };
+
+    this.updateLimitationSpans = function() {
+        if(isNaN(_user.data_total_limit) || isNaN(_user.data_total_used)){
+            $("html").addClass("invalid-quota").removeClass("valid-quota");
+        } else {
+            $("html").addClass("valid-quota").removeClass("invalid-quota");
+            var toMB = function(bytes) {
+                return Math.floor(bytes / (1024 * 1024));
+            }
+            $('.quota-limitation-span').text(toMB(_user.data_total_limit));
+            $('.quota-usage-span').text(toMB(_user.data_total_used));
+            $('.quota-usage-left-span').text(toMB(_user.data_total_limit - _user.data_total_used));
+        }
+    };
+
+    this.updateUserQuotas = function() {
+        updateThrottledStatus();
+        updateUnlimitedStatus();
+        updateLimitationBars();
+        updateLimitationSpans();
+        updateTimeSpans();
+    };
+
+    this.updateTimeSpans = function() {
+        $('.quota-time-left-span').text(_user.timeleft);
+        $('.quota-time-used-span').text(_user.timeused);
+    };
+
+    this.updateUserDetails = function() {
+        if (_user.authenticated) {
+            $("html").addClass("online-user").removeClass("offline-user").removeClass("unknown-user");
+        } else {
+            $("html").addClass("offline-user").removeClass("online-user").removeClass("unknown-user");
+        }
+        $('.user-class-span').text(_user.userclass);
+        $('.user-ip-span').text(_user.ip);
+        $('.user-mac-span').text(_user.mac);
+    };
+
+    this.getUserDataPercentage = function() {
+        return Math.ceil((_user.data_total_used / _user.data_total_limit) * 100);
+    };
+
+    this.updateThrottledStatus = function() {
+        _isThrottled = _user.cap_level == 1 || (_user.data_total_limit != 0 && _user.data_total_used > _user.data_total_limit);
+
+        if (_isThrottled) {
+            $("html").addClass("throttled-quota").removeClass("unthrottled-quota");
+        } else {
+            $("html").addClass("unthrottled-quota").removeClass("throttled-quota");
+        }
+    };
+
+    this.updateUnlimitedStatus = function() {
+        var isUnlimited = (_user.data_download_limit == 0 &&
+            _user.data_upload_limit == 0 && _user.data_total_limit == 0);
+
+        if (isUnlimited) {
+            $("html").addClass("unlimited-quota").removeClass("limited-quota");
+        } else {
+            $("html").addClass("limited-quota").removeClass("unlimited-quota");
+        }
+    };
+})(jQuery);
