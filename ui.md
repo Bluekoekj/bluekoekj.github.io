@@ -1,3 +1,0 @@
-## Hey, what are you doing here?
-
-This UI is still being worked on, so its not available just yet...
